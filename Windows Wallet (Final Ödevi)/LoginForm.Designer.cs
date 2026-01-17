@@ -41,9 +41,11 @@
             // 
             this.lblBaslik.AutoSize = true;
             this.lblBaslik.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBaslik.Location = new System.Drawing.Point(41, -1);
+            this.lblBaslik.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(150)))), ((int)(((byte)(75)))));
+            this.lblBaslik.Location = new System.Drawing.Point(35, 9);
+            this.lblBaslik.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBaslik.Name = "lblBaslik";
-            this.lblBaslik.Size = new System.Drawing.Size(251, 65);
+            this.lblBaslik.Size = new System.Drawing.Size(144, 37);
             this.lblBaslik.TabIndex = 0;
             this.lblBaslik.Text = "GİRİŞ YAP";
             // 
@@ -51,9 +53,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(45, 236);
+            this.label2.Location = new System.Drawing.Point(26, 130);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 41);
+            this.label2.Size = new System.Drawing.Size(47, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "Şifre:";
             // 
@@ -61,38 +64,48 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(45, 115);
+            this.label1.Location = new System.Drawing.Point(26, 63);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 41);
+            this.label1.Size = new System.Drawing.Size(107, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "Kullanıcı Adı:";
             // 
             // txtUser
             // 
+            this.txtUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtUser.Location = new System.Drawing.Point(52, 159);
+            this.txtUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(150)))), ((int)(((byte)(75)))));
+            this.txtUser.Location = new System.Drawing.Point(30, 88);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(289, 55);
+            this.txtUser.Size = new System.Drawing.Size(167, 34);
             this.txtUser.TabIndex = 3;
             // 
             // txtPass
             // 
+            this.txtPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtPass.Location = new System.Drawing.Point(52, 280);
+            this.txtPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(150)))), ((int)(((byte)(75)))));
+            this.txtPass.Location = new System.Drawing.Point(30, 155);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(289, 55);
+            this.txtPass.Size = new System.Drawing.Size(167, 34);
             this.txtPass.TabIndex = 4;
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.Blue;
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(150)))), ((int)(((byte)(75)))));
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(91, 377);
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.btnLogin.Location = new System.Drawing.Point(52, 208);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(223, 71);
+            this.btnLogin.Size = new System.Drawing.Size(127, 39);
             this.btnLogin.TabIndex = 5;
             this.btnLogin.Text = "Giriş";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -101,12 +114,14 @@
             // btnCikis
             // 
             this.btnCikis.BackColor = System.Drawing.Color.DarkRed;
+            this.btnCikis.FlatAppearance.BorderSize = 0;
             this.btnCikis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnCikis.ForeColor = System.Drawing.Color.White;
-            this.btnCikis.Location = new System.Drawing.Point(336, -1);
+            this.btnCikis.Location = new System.Drawing.Point(192, -2);
+            this.btnCikis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCikis.Name = "btnCikis";
-            this.btnCikis.Size = new System.Drawing.Size(66, 65);
+            this.btnCikis.Size = new System.Drawing.Size(41, 37);
             this.btnCikis.TabIndex = 6;
             this.btnCikis.Text = "X";
             this.btnCikis.UseVisualStyleBackColor = false;
@@ -114,10 +129,10 @@
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(400, 500);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ClientSize = new System.Drawing.Size(229, 276);
             this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPass);
@@ -125,7 +140,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblBaslik);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";

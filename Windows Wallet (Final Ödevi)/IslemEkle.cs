@@ -102,7 +102,7 @@ namespace Windows_Wallet__Final_Ödevi_
             _txtTutar.KeyPress += (s, e) => { if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != ',') e.Handled = true; };
             pnlInput.Controls.Add(_txtTutar);
 
-            // Kategori (ARTIK HEP GÖRÜNÜR)
+            // Kategori
             pnlInput.Controls.Add(LabelUret("Kategori"));
             _cmbKategori = new ComboBox { Width = 320, Font = new Font("Segoe UI", 10), DropDownStyle = ComboBoxStyle.DropDownList };
             pnlInput.Controls.Add(_cmbKategori);
